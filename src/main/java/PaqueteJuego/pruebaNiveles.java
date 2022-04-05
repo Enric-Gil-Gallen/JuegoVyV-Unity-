@@ -11,6 +11,7 @@ public class pruebaNiveles {
 
 		String fJ = "jugadores.txt";
 		String resourcePathFJ = URLDecoder.decode(pruebaNiveles.class.getResource("/"+fJ).getPath());
+		System.out.println(resourcePathFJ);
 		TablaJugadores tJ = new TablaJugadores(resourcePathFJ);
 		System.out.println("Tabla de jugadores ANTES DE actualizar niveles...");
 		tJ.mostrarJugadores();

@@ -51,7 +51,6 @@ public class Niveles {
 					if (encontrado == 0)
 						codError = 2;  // 2 == al menos un mejor equipo SIN deportistas
 				}
-				
 			}
 		}		
 		return codError;
