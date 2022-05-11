@@ -1,4 +1,4 @@
-package PaqueteJuego;
+package paquetejuego;
 
 import java.net.URLDecoder;
 

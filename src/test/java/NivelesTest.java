@@ -1,7 +1,7 @@
-import PaqueteJuego.Niveles;
-import PaqueteJuego.TablaEquipos;
-import PaqueteJuego.TablaJugadores;
-import PaqueteJuego.pruebaNiveles;
+import paquetejuego.Niveles;
+import paquetejuego.TablaEquipos;
+import paquetejuego.TablaJugadores;
+import paquetejuego.pruebaNiveles;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -12,7 +12,6 @@ import java.util.stream.Stream;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class NivelesTest {
     private static Niveles niveles;

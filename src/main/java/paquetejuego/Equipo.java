@@ -1,4 +1,4 @@
-package PaqueteJuego;
+package paquetejuego;
 
 public class Equipo {
 	private String nombre;
